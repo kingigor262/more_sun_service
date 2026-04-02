@@ -3,7 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Море Сонця | Енергонезалежність та Безпека</title>
+    <!-- SEO Meta Tags -->
+    <title>Море Сонця Сервіс | Сонячні електростанції та відеонагляд в Одесі</title>
+    <meta name="description" content="Професійний монтаж сонячних електростанцій, систем резервного живлення (інвертори, акумулятори) та відеонагляду під ключ в Одесі та області. Безкоштовний розрахунок!">
+    <meta name="keywords" content="сонячні електростанції Одеса, встановлення сонячних панелей, резервне живлення, безперебійник для дому, монтаж відеонагляду Одеса, сонячні батареї">
+    
+    <!-- Open Graph (Для красивих прев'ю у Telegram, Viber, Facebook) -->
+    <meta property="og:title" content="Море Сонця Сервіс | Енергонезалежність вашого дому">
+    <meta property="og:description" content="Професійний монтаж сонячних станцій та систем безпеки в Одесі та області. Дізнайтесь вартість для вашого об'єкту!">
+    <meta property="og:image" content="1_4.jpg"> <!-- Бажано вказати повне посилання, наприклад https://ваш-сайт.com/1_4.jpg -->
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="uk_UA">
     
     <!-- Fonts & Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -518,7 +528,7 @@
             <div class="hero-overlay"></div>
             <div class="hero-content">
                 <span class="hero-tag">Резервне живлення</span>
-                <h1 class="hero-title">Світло буде завжди</h1>
+                <h2 class="hero-title">Світло буде завжди</h2>
                 <p class="hero-subtitle">Встановлення надійних інверторів та акумуляторних батарей (Sunsynk, Deye). Безшовне перемикання при відключенні мережі.</p>
                 <button class="btn btn-primary" onclick="openModal()">Отримати консультацію</button>
                 <div class="hero-quick-contacts">
@@ -535,7 +545,7 @@
             <div class="hero-overlay"></div>
             <div class="hero-content">
                 <span class="hero-tag">Безпека 24/7</span>
-                <h1 class="hero-title">Системи відеонагляду та охорони</h1>
+                <h2 class="hero-title">Системи відеонагляду та охорони</h2>
                 <p class="hero-subtitle">Захистіть своє майно. Професійний монтаж систем відеоспостереження та пожежної безпеки з віддаленим доступом зі смартфона.</p>
                 <button class="btn btn-primary" onclick="openModal()">Замовити монтаж</button>
                 <div class="hero-quick-contacts">
@@ -624,7 +634,12 @@
             <div class="gallery-item"><img src="works/8w.jpg" alt="Проєкт 8"></div>
             <!-- <div class="gallery-item"><img src="works/9w.jpg" alt="Проєкт 9"></div>
             <div class="gallery-item"><img src="works/10w.jpg" alt="Проєкт 10"></div>
-            <div class="gallery-item"><img src="works/11w.jpg" alt="Проєкт 11"></div> -->
+            <div class="gallery-item"><img src="works/11w.jpg" alt="Проєкт 11"></div>
+            <div class="gallery-item"><img src="works/1w.jpg" alt="Монтаж сонячних панелей на даху будинку в Одесі"></div>
+<div class="gallery-item"><img src="works/2w.jpg" alt="Встановлення гібридного інвертора та акумуляторів"></div>
+<div class="gallery-item"><img src="works/3w.jpg" alt="Камера відеонагляду на фасаді приватного будинку"></div>
+<div class="gallery-item"><img src="works/4w.jpg" alt="Автономна сонячна електростанція під ключ"></div> -->
+<!-- І так далі, описуйте те, що реально на фото, додаючи слова "Одеса", "монтаж", "інвертор" -->
         </div>
     </section>
 
@@ -843,6 +858,25 @@
             lightbox.style.display = 'none';
             document.body.style.overflow = ''; // Повертаємо скрол
         });
+    </script>
+    <!-- Schema.org Microdata (SEO для локального бізнесу) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HomeAndConstructionBusiness",
+      "name": "Море Сонця Сервіс",
+      "image": "1_4.jpg",
+      "telephone": "+380954962840",
+      "email": "support@moresonca.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Одеса",
+        "addressRegion": "Одеська область",
+        "addressCountry": "UA"
+      },
+      "description": "Проєктування, підбір обладнання та монтаж сонячних систем і відеонагляду під ключ в Одесі.",
+      "priceRange": "$$"
+    }
     </script>
 </body>
 </html>
